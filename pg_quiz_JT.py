@@ -6,11 +6,11 @@ points=0
 #Question goes here
 answer = pg.prompt(
 """
-A friend of yours is being bullied. What do you do?
+A teammate of your is telling your friend that they are bad. What do you do
 
-a)Fight the bully
-b)Try to talk to the bully
-c)Tell on the bully
+a)Teamkill them
+b)Force him out of the objective
+c)Report him for toxic behavior
 d)Do nothing
 
 """
@@ -31,11 +31,11 @@ elif answer == "d":
 #Question goes here
 answer = pg.prompt(
 """
-Somebody is trying to fight you and you are hiding. You know they know where they are. What do you do?
+Somebody is trying to kill you and you are hiding. You know they know where you are, but you don't know where they are. What do you do?
 
 a)Prepare yourself for the fight
 b)Plan a trap
-c)Call a friend to fight him for you
+c)Ask a friend to fight him for you
 d)Stay and get beat up
 
 """
@@ -56,12 +56,12 @@ elif answer == "d":
 #Question goes here
 answer = pg.prompt(
 """
-A friend needs your help, but if you help them you will get in trouble. What do you do?
+A teammate is cornered. If you help them, you will probably die. What do you do?
 
-a)Don't help them and laugh at them when they fail
+a)Help the enemies get them
 b)Plan something out that will get him out of trouble without you getting in trouble
-c)Tell him to go to another friend
-d)Help them and get in trouble
+c)Tell him to go to ask another teammate
+d)Help them and get in killed
 
 """
     )
@@ -81,10 +81,10 @@ elif answer == "d":
 #Question goes here
 answer = pg.prompt(
 """
-Somebody is annoying you. What do you do?
+A teammate keeps teamkilling. What do you do?
 
-a)Beat the person up
-b)Tell the person they are annoying
+a)Teamkill them
+b)Tell them to stop
 c)Get someone else to tell him to stop/fight him
 d)Do nothing
 
@@ -106,11 +106,11 @@ elif answer == "d":
 #Question goes here
 answer = pg.prompt(
 """
+You are cornered in a 2 v 1. What do you do?
 
-
-a)Fight the bully
-b)Try to talk to the bully
-c)Tell on the bully
+a)Run and Gun
+b)Wait for them to push while holding a nitro cell
+c)Try to move to a different spot
 d)Do nothing
 
 """
